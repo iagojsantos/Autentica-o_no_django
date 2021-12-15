@@ -44,9 +44,9 @@ INSTALLED_APPS = [
     # thirty apps
     'django_extensions',
     # my apps
-    'myproject.accounts',
-    'myproject.core',
-    'myproject.crm',
+    'tentativa2.accounts',
+    'tentativa2.core',
+    'tentativa2.crm',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'myproject.urls'
+ROOT_URLCONF = 'tentativa2.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'myproject.wsgi.application'
+WSGI_APPLICATION = 'tentativa2.wsgi.application'
 
 
 # Database

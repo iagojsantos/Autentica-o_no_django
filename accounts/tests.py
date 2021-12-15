@@ -2,7 +2,7 @@ from django.test import TestCase
 
 # Create your tests here.
 
-from myproject.accounts.models import User
+from tentativa2.accounts.models import User
 
 
 class TestUser(TestCase):

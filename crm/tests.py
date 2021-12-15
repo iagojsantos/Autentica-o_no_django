@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-from myproject.accounts.models import User
-from myproject.crm.models import Phone
+from tentativa2.accounts.models import User
+from tentativa2.crm.models import Phone
 
 
 class TestUser(TestCase):
