@@ -2,7 +2,7 @@
 
 from django.db import migrations, models
 
-import myproject.accounts.managers
+import tentativa2.accounts.managers
 
 
 class Migration(migrations.Migration):
@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
                 'verbose_name_plural': 'users',
             },
             managers=[
-                ('objects', myproject.accounts.managers.UserManager()),
+                ('objects', tentativa2.accounts.managers.UserManager()),
             ],
         ),
     ]
